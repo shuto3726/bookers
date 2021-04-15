@@ -13,3 +13,75 @@
  *= require_tree .
  *= require_self
  */
+
+
+ body {
+   background-color: #fff;
+   color: #333;
+   font-family: verdana, arial, helvetica, sans-serif;
+   font-size: 13px;
+   line-height: 18px;
+   margin: 33px
+ }
+ 
+ h1 {
+   display: block;
+   font-size: 2em
+ }
+ 
+ p {
+   font-family: verdana, arial, helvetica, sans-serif;
+   font-size: 13px;
+   line-height: 18px;
+   margin: 33px
+ }
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+input[type="hidden" i] {
+  display: none;
+  appearance: initial;
+  background-color: initial;
+  cursor: default;
+  padding: initial;
+  border:initial;
+}
+
+div.field, div.action {
+  margin-bottom: 10px;
+}
