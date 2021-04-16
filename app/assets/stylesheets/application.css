@@ -73,15 +73,13 @@ form {
   margin-top: 0em;
 }
 
-input[type="hidden" i] {
-  display: none;
-  appearance: initial;
-  background-color: initial;
-  cursor: default;
-  padding: initial;
-  border:initial;
+label {
+  display: block;
+
 }
 
-div.field, div.action {
+div {
+  display: block;
   margin-bottom: 10px;
 }
+
